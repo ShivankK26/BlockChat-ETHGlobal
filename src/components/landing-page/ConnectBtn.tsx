@@ -11,7 +11,7 @@ const { chains, publicClient } = configureChains(
   [
     //put api key in env
     infuraProvider({
-      apiKey: "ff5577e6419540079b7ecfa263ac5e6c",
+      apiKey: process.env.INFURA_KEY,
     }),
     publicProvider(),
   ]
@@ -20,7 +20,7 @@ const { chains, publicClient } = configureChains(
 const { connectors } = getDefaultWallets({
   appName: "block chat",
   // put project id and name in env as well.
-  projectId: "f920121b443b4dcedab8daf74732fcfa",
+  projectId: process.env.INFURA_PROJECT_ID,
   chains,
 });
 
