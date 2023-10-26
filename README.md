@@ -12,10 +12,10 @@ BlockChat is a cutting-edge platform that combines the power of decentralized co
 - [License](#license)
 
 ## Introduction
-BlockChat is built on the concept of decentralization, leveraging push protocol and IPFS to ensure that your messages and calls are private and secure. You can use it for personal conversations, business meetings, or any other situation where privacy is a top concern. It also allows you to transfer files like documents, audios, videos, etc in a secure way.
+BlockChat is built on the concept of decentralization, leveraging Push Protocol and Lighthouse Protocol to ensure that your messages and calls are private and secure. You can use it for personal conversations, business meetings, or any other situation where privacy is a top concern. It also allows you to transfer files like documents, audios, videos, etc in a secure way.
 
 ## Features
-- **Decentralized Chatting:** Send text messages & files in a decentralized manner using IPFS (Interplanetary File System) to store and distribute your chat messages.
+- **Decentralized Chatting:** Send text messages & files in a decentralized manner using Lighthouse Protocol to store and distribute your chat messages.
 - **Video Calling:** Make video calls with your contacts without relying on centralized servers. BlockChat uses a peer-to-peer connection to ensure your privacy.
 - **User Authentication:** Securely authenticate users to maintain privacy and control over who can access your communication channels.
 - **Intuitive User Interface:** A sleek and modern user interface built with React.js and Tailwind CSS, making it user-friendly and visually appealing.
@@ -25,7 +25,7 @@ BlockChat is built on the concept of decentralization, leveraging push protocol 
 - **React.js/Next.js:** The frontend of BlockChat is built using React.js and Next.js, providing a responsive and interactive user interface.
 - **Tailwind CSS:** Tailwind CSS is used for styling, providing a clean and visually appealing design.
 - **Push Protocol:** The push protocol is the backbone of real-time communication, enabling instant updates and notifications.
-- **IPFS (InterPlanetary File System):** IPFS is used to store and share chat messages and data in a decentralized way, ensuring data privacy and availability.
+- **Lighthouse Protocol:** The lighthouse protocol is used to store and share chat messages and data in a decentralized way, ensuring data privacy and availability.
 
 ## Getting Started
 To get started with BlockChat, follow these steps:
@@ -50,14 +50,25 @@ To get started with BlockChat, follow these steps:
     Open your browser and access [http://localhost:3000](http://localhost:3000) to start using BlockChat.
 
 ## Usage
-1. **Register or Log In:**
-    Create an account or log in with your existing credentials.
+1. **Push Protocol Documentation:**
+    ```bash
+    https://docs.push.org/hub/
+    ```
 
-2. **Start a Chat or Call:**
-    Initiate a chat or video call with a contact by searching for their username.
+2. **Lighthouse Protocol Documentation:**
+    ```bash
+    https://www.lighthouse.storage/
+    ```
 
-3. **Enjoy Decentralized Communication:**
-    Send messages, make video calls, and enjoy the benefits of decentralized communication.
+3. **Next.js Documentation:**
+    ```bash
+    https://nextjs.org/
+    ```
+
+4. **TailwindCSS Documentation:**
+    ```bash
+    https://tailwindcss.com/docs/installation
+    ```    
 
 ## Contributing
 We welcome contributions to BlockChat! Feel free to open issues, submit pull requests, and help us improve this project. Be sure to follow our [contribution guidelines](CONTRIBUTING.md) for a smooth collaboration process.
