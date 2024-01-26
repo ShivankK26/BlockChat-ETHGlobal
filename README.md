@@ -32,7 +32,7 @@ To get started with BlockChat, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/blockchat.git
+    git clone https://github.com/ShivankK26/BlockChat-ETHGlobal.git
     cd blockchat
     ```
 
